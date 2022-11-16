@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(43, 43, 43);
+    margin: 0;
+}
+
+*{
+    color: white;
+    text-decoration: none;
+}
+
+#title{
+    font-style: oblique;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+}
+
+
+.nav-button a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+.nav-button a:hover{
+    background-color: grey;
+    
+    
+}
+
+#photo{
+    border-radius: 40px;
+    width: 30%;
+}
+
+#body-div{
+    display: flex;
+    border-radius: 40px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #584B5C;
+}
+
+#text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    padding: 2%;
+}
+
+#linkedin{
+    width: 40px;
+    padding: 5px;
+}
