@@ -1,4 +1,11 @@
+/* Global */
+
+
 body{
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
     background-color: rgb(43, 43, 43);
     margin: 0;
 }
@@ -7,6 +14,10 @@ body{
     color: white;
     text-decoration: none;
 }
+/* /Global */
+
+
+/* Header */
 
 #title{
     font-style: oblique;
@@ -48,27 +59,79 @@ header{
     
 }
 
-#photo{
-    border-radius: 40px;
-    width: 30%;
+@media (max-width: 600px) {
+    .nav-button{
+        display: block;
+        flex-direction: column;
+    }
+    
 }
 
-#body-div{
+/* /Header */
+
+/* Body */
+
+#photo{
+    border-radius: 40px;
+    width: 300px;
+}
+
+.body-div{
     display: flex;
     border-radius: 40px;
     width: 80%;
-    margin: 50px auto;
+    margin: 50px;
     padding: 50px;
     background-color: #584B5C;
 }
 
-#text{
+.text{
     font-family: 'Roboto Mono', monospace;
     font-size: large;
     padding: 2%;
 }
 
-#linkedin{
+.logos{
     width: 40px;
     padding: 5px;
 }
+
+
+.table{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    .body-div{
+        display: block;
+        justify-items: center;
+        margin: 7%;
+        padding: 3%;
+        
+    }
+    #photo{
+        flex-direction: column;
+    }
+}
+
+.project-images{
+    border-radius: 20px;
+    justify-content: space-around;
+    width: 310px;
+
+}
+
+.tech {
+    width: 900px;
+    align-items: center;
+}
+
+.text-projects{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    font-style: italic;
+}
+/* /Body */
+
