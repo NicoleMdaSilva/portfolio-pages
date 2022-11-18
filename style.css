@@ -97,12 +97,6 @@ header{
 }
 
 
-.table{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
 @media (max-width: 600px) {
     .body-div{
         display: block;
@@ -115,6 +109,8 @@ header{
         flex-direction: column;
     }
 }
+
+/* Projects */
 
 .project-images{
     border-radius: 20px;
@@ -134,5 +130,82 @@ header{
     font-size: large;
     font-style: italic;
 }
+
+/* /Projects */
+
+/* Table-Contacts */
+
+.table-div{
+    border-radius: 40px;
+    margin: 50px;
+    height: 410px;
+    padding: 60px;
+    background-color: #584B5C; 
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-color{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-names{
+    font-family: 'Roboto Mono', monospace;
+}
+
+form p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+
+.style-table{
+    outline: unset;
+    padding: 9px;
+    min-width: 290px;
+    border: 1px rgb(49, 49, 49);
+    border-radius: 10px;
+
+}
+
+.style-button{
+    background-color: #A86CA8;
+    color: white;
+    cursor: pointer;
+}
+
+.style-table:focus{
+    background-color: rgb(213, 167, 255);
+    
+}
+
+@media (max-width: 900px) {
+    .table-div{
+        border-radius: 40px;
+        margin: 10px;
+        height: 500px;
+    }
+    
+
+    
+}
+
+/* /Table-Contacts */
+
 /* /Body */
 
