@@ -63,8 +63,9 @@ header{
     .nav-button{
         display: block;
         flex-direction: column;
+
+        font-size: 100%;
     }
-    
 }
 
 /* /Header */
@@ -123,6 +124,20 @@ header{
 .tech {
     display: flex;
     width: 700px;
+    margin-left: 15%;
+}
+
+@media (max-width: 900px) {
+    .tech{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .project-images{
+        width: 100%;
+    }
+
+    
 }
 
 .text-projects{
