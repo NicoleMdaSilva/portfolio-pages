@@ -73,8 +73,10 @@ header{
 /* Body */
 
 #photo{
+    display: block;
     border-radius: 40px;
     width: 300px;
+    height: 300px;
 
 }
 
@@ -109,7 +111,8 @@ header{
     }
     #photo{
         flex-direction: column;
-        width: 90%;
+        width: 80%;
+        height: 80%;
     }
 }
 
